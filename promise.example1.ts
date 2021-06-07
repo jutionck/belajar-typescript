@@ -5,8 +5,7 @@ var promise = new Promise(function (resolve, reject) {
 function asyncAction() {
   var promise = new Promise((resolve, reject) => {
     setTimeout(() => {
-      console.log("Async is done!");
-      resolve();
+      resolve('Async is done!');
     }, 1500);
   });
   return promise;
