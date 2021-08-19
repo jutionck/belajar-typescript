@@ -1,5 +1,4 @@
 // Pure Functions
-
 let num = 123;
 
 function toString(val: any) {
